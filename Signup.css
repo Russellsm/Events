@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5% 5%;
+    border-bottom: 1.5px solid rgba(231, 158, 3, 1);
+}
+.header ul{
+    display: flex;
+   list-style: none;
+   gap: 60px;
+   padding-right: 35%;
+font-family: Oxygen;
+font-weight: 400;
+font-size: 19px;
+}
+.header button{
+    padding: 18px 50px;
+    background-color: rgba(231, 158, 3, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: Inter;
+font-weight: 700;
+font-size: 12px;
+border-radius: 10px;
+}
+.body{ 
+    display: flex;
+    
+    
+
+}
+.body1{
+ justify-items: center;
+ justify-content: center;
+    
+
+
+
+}
+.body img{
+    width: 50%;
+}
+.body1 .text1 {
+    text-align: center;
+line-height: 80px;
+padding-top: 10%;}
+    .text1 h3{
+font-family: Nunito Sans;
+font-weight: 600;
+font-size: 20px;
+}
+.text1 h1{
+font-family: Nunito Sans;
+font-weight: 600;
+font-size: 42px;
+padding-bottom: 2%;
+color: rgba(231, 158, 3, 1);
+}
+.text1 a{
+font-family: Nunito Sans;
+font-weight: 700;
+font-size: 20px;
+text-decoration: none;
+color: rgba(231, 158, 3, 1);
+
+}
+.body1 .fillin{
+   padding-left: 10%;
+   line-height: 40px;
+   margin-top: 7%;
+}
+.fillin label{
+font-family: Nunito Sans;
+font-weight: 400;
+font-size: 16px;
+
+}
+.fillin div{
+margin-top: 3%;
+
+
+}
+.fillin input{
+    
+width: 600px;
+height: 59px;
+border-radius: 10px;
+border: 1px solid rgba(196, 196, 196, 1);
+}
+::placeholder{
+font-family: Nunito Sans;
+font-weight: 400;
+font-size: 16px;
+color: rgba(143, 142, 142, 1);
+padding-left: 2.5%;
+
+}
+.button1 button{
+    margin-top: 5%;
+    margin-left: 60px;
+    padding: 20px 265px;
+    border-radius: 10px;
+    border: none;
+background-color: rgba(231, 158, 3, 1);
+color: rgba(255, 255, 255, 1);
+font-family: Nunito Sans;
+font-weight: 600;
+font-size: 20px;
+}
+.line{
+display: flex;
+align-items: center;
+padding-top: 4%;
+padding-bottom: 5%;
+margin-left: 60px;
+}
+.line hr{
+
+  width: 225px;
+  border: 1px solid #000;
+  margin: 0 10px;
+}
+.line span{
+    white-space: nowrap;
+font-family: Nunito Sans;
+font-weight: 600;
+font-size: 18px;
+color: rgba(0, 0, 0, 1);
+
+
+}
+.btn3{
+    margin-left: 50px;
+    align-items: center;
+    
+}
+.btn3 button{
+padding: 16px 90px;
+ border-radius: 10px;
+border: 1px solid rgba(231, 158, 3, 1);
+ background: transparent;
+font-family: Nunito Sans;
+font-weight: 600;
+font-size: 20px;
+color: rgba(0, 0, 0, 1);
+margin-left: 10px;
+
+}
+.btn3 img{
+    width: 24px;
+height: 24px;
+padding-right: 10px;
+}
