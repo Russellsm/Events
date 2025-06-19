@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-
 }
 
 .header {
@@ -85,21 +84,19 @@
   font-family: Nunito Sans;
   font-weight: 400;
   font-size: 16px;
-
 }
 
 .fillin .email {
   margin-top: 3%;
   margin-bottom: 3%;
-
 }
 
 .fillin input {
-
   width: 600px;
   height: 59px;
   border-radius: 10px;
   border: 1px solid rgba(196, 196, 196, 1);
+  padding-left: 20px;
 }
 
 ::placeholder {
@@ -120,7 +117,6 @@
   font-family: Nunito Sans;
   font-weight: 600;
   font-size: 16px;
-
 }
 
 .checkbox input {
@@ -129,7 +125,6 @@
   border-width: 1px;
   border: 1px rgba(0, 0, 0, 1);
   border-radius: 7px;
-
 }
 
 .checkbox p {
@@ -137,13 +132,11 @@
   font-weight: 600;
   font-size: 20px;
   color: rgba(231, 158, 3, 1);
-
 }
 
 .chk {
   display: flex;
   gap: 10px;
-
 }
 
 .rem {
@@ -172,7 +165,6 @@
 }
 
 .line hr {
-
   width: 220px;
   border: 0.2px solid rgb(149, 145, 145);
   margin: 0 10px;
@@ -184,14 +176,11 @@
   font-weight: 600;
   font-size: 18px;
   color: rgba(0, 0, 0, 1);
-
-
 }
 
 .btn3 {
   margin-left: 50px;
   align-items: center;
-
 }
 
 .btn3 button {
@@ -205,7 +194,6 @@
   color: rgba(0, 0, 0, 1);
   margin-left: 10px;
   margin-bottom: 8%;
-
 }
 
 .btn3 img {
@@ -213,8 +201,6 @@
   height: 24px;
   padding-right: 10px;
 }
-
-
 
 .text5 {
   font-family: Nunito Sans;
@@ -230,5 +216,4 @@
   font-size: 20px;
   color: rgba(231, 158, 3, 1);
   text-decoration: none;
-
 }

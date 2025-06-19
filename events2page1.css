@@ -5,7 +5,7 @@
 }
 
 .container {
-    background: url(/Events/images/Frame\ 1.png);
+    background: url(/image/Frame\ 1.png);
     height: 80vh;
     width: 100%;
 }
@@ -102,7 +102,6 @@ ul li {
 .container1 {
     padding: 0 6%;
     width: 100%;
-    flex-wrap: wrap;
 
     .eve {
         display: flex;
@@ -146,6 +145,8 @@ ul li {
 .rectangle {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .rec {
@@ -231,7 +232,7 @@ ul li {
 }
 
 .hpic {
-    background-image: url(./images/Rectangle\ 6.png);
+    background-image: url(./image/Rectangle\ 6.png);
     height: 90vh;
     width: 100%;
 
