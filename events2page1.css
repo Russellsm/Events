@@ -11,6 +11,7 @@
 }
 
 .navbar {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     background: rgba(0, 0, 0, 0.7);

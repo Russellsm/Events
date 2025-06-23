@@ -154,6 +154,7 @@
   font-family: Nunito Sans;
   font-weight: 600;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .line {
@@ -194,6 +195,7 @@
   color: rgba(0, 0, 0, 1);
   margin-left: 10px;
   margin-bottom: 8%;
+  cursor: pointer;
 }
 
 .btn3 img {
