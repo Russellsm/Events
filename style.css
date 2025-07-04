@@ -211,7 +211,7 @@ li {
 .main {
     padding: 0 6%;
     height: auto;
-    width: 100%;
+    /* width: 100%; */
     background: conic-gradient(from 193.39deg at 58.76% 50.06%, #F7F7F7 0deg, #F7F1DF 92.07deg, #F7F7F7 360deg);
 }
 
@@ -263,12 +263,11 @@ li {
 }
 
 .list {
-    padding-top: 40px;
+    margin-top: 40px;
+    display: flex;
+    gap: 80px;
     list-style: none;
 
-    .all {
-        color: #870404;
-    }
 }
 
 .lesi {
@@ -429,6 +428,7 @@ li {
 
 
     .ask {
+        padding-top: 40px;
         font-size: 32px;
         padding-left: 60vh;
         font-weight: 700;
@@ -644,23 +644,10 @@ li {
     }
 }
 
-
-@media (max-width:1440px) {
-    .heading-text p {
-        font-size: 17px;
-    }
-
-    .pic-2 {
-        position: absolute;
-        left: 1120.75px;
-    }
-
-}
-
 @media (max-width:1024px) {
     .container {
         width: 100%;
-        height: 135vh;
+        height: auto;
         padding-top: 30px;
     }
 
@@ -671,8 +658,80 @@ li {
         align-items: center;
     }
 
-    .pic-2 {
-        position: absolute;
-        left: 600px;
+    .heading-text h1 {
+        font-size: 70px;
     }
+
+    .heading-text p {
+        font-size: 10px;
+        line-height: 1.5;
+
+    }
+
+    .heading-image {
+        .img {
+            width: 2px;
+            height: 2px;
+        }
+
+        .pic-2 {
+            position: absolute;
+            left: 600px;
+        }
+    }
+
+    .list {
+        gap: 50px;
+    }
+
+    .disco1 {
+
+        p {
+            padding-top: 150px;
+            font-size: 40px;
+        }
+    }
+
+    .seat {
+        line-height: 1.5;
+        font-size: 12px;
+
+    }
+
+    .styled-line {
+        width: 120vh;
+    }
+
+    .sec4 {
+        padding: 0 1%;
+
+        .ask {
+            padding-left: 50vh;
+        }
+
+        .you {
+            font-size: 20px;
+            padding-left: 30vh;
+        }
+    }
+
+    .tickets {
+        padding-left: 20vh;
+        padding-top: 60px;
+
+        .how {
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 100%;
+            letter-spacing: 0%;
+        }
+
+        .plus {
+            display: flex;
+            justify-content: space-between;
+            padding-right: 15%;
+        }
+    }
+
 }
