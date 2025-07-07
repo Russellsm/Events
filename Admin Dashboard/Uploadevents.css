@@ -260,5 +260,28 @@
         align-items: center;
     }
 
-    
+    .describ {
+
+        h4 {
+            color: #000000;
+            font-family: Nunito Sans;
+            font-weight: 600;
+            font-style: SemiBold;
+            font-size: 30px;
+            padding-top: 30px;
+            padding-left: 20px;
+        }
+    }
+
+    #here {
+        font-family: Poppins;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 14px;
+        width: 1150px;
+        height: 220px;
+        border-radius: 10px;
+        border-width: 0.5px;
+        margin-left: 20px;
+    }
 }
