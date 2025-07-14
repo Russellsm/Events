@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+}
+
+.container1 {
+    width: 20%;
+    height: 100vh;
+    background: #061C68;
+    position: sticky;
+    top: 0;
+
+    .home {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 170px;
+        margin-left: 50px;
+    }
+
+    .upload {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 30px;
+        gap: 10px;
+
+    }
+
+    .orders {
+        display: flex;
+        align-items: center;
+        margin-left: 48px;
+        margin-top: 30px;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .events {
+        display: flex;
+        align-items: center;
+        margin-left: 49px;
+        margin-top: 30px;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+    .news {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 30px;
+        gap: 10px;
+        cursor: pointer;
+    }
+
+}
+
+/* search-input */
+
+.head-section {
+    margin-left: 22%;
+}
+
+.top-bar h1 {
+    font-family: Oxygen;
+    font-weight: 600;
+    font-style: Bold;
+    font-size: 36px;
+    margin-left: 20px;
+
+}
+
+.home-order {
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    margin-left: 2%;
+}
+
+.pps {
+    /* margin-top: 20%; */
+    display: flex;
+    margin-left: 12px;
+    font-family: Lato;
+    gap: 10px;
+    font-weight: bold;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(0, 0, 0, 1)
+}
+
+.home-order h5 {
+    font-family: Lato;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 100%;
+    color: rgba(51, 51, 51, 0.5);
+
+}
+
+.search-input {
+    margin-left: 42%;
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+}
+
+.mmiri {
+    /* position: relative; */
+    /* top: -9px; */
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 3%;
+
+}
+
+.search {
+    width: 330px;
+    height: 28px;
+    padding-left: 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 0%;
+
+    align-items: center;
+    border: 1px solid rgba(132, 132, 132, 1);
+    outline: none;
+
+}
+
+#search-logo {
+    position: relative;
+    left: 20px;
+    top: -4px;
+    width: 4%;
+}
+
+/* activities-- dashboard-activities --> */
+#activities {
+    /* margin-left: 22%; */
+    margin-top: 3%;
+
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(217, 217, 217, 1);
+    width: 87%;
+    height: 30px;
+    gap: 16%;
+    padding-top: 9px;
+    /* padding-right: 15px; */
+    padding-bottom: 9px;
+    /* padding-left: 15px; */
+    font-family: lato;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: none;
+    /* margin: auto; */
+    margin-left: 1%;
+
+    /* gap: 4%; */
+}
+
+.check-b {
+    display: flex;
+    margin-left: 1%;
+
+
+}
+
+#checkbox {
+    border: 2px solid rgba(0, 0, 0, 1);
+
+}
+
+#dropdown {
+    margin-right: 0%;
+    border: none;
+    align-items: center;
+    background-color: rgba(217, 217, 217, 1);
+}
+
+#Users {
+    margin-left: 22%;
+    margin-top: 2%;
+
+}
+
+.users {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    margin-right: 8%;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+
+
+}
+
+#span-item {
+    display: inline-flex;
+    white-space: nowrap;
+    align-items: center;
+    margin-right: 40px;
+
+}
+
+.mmiri-two {
+    width: 24px;
+    height: 29px;
+    border-radius: 50%;
+
+}
+
+.users .hh6 h6 {
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+    background-color: rgba(104, 232, 132, 0.14);
+    color: rgba(0, 144, 49, 0.87);
+    width: 104px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.hh6 {
+    margin-left: 50px;
+
+}
+
+.reg {
+    margin-left: 30px;
+}
+
+.pend {
+    font-size: 14px;
+    padding: 8px 20px 8px 20px;
+    background-color: rgba(196, 196, 196, 0.27);
+    color: rgba(51, 51, 51, 0.5);
+    width: 104px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
+    gap: 50%;
+}
+
+.pend h6 {
+    font-family: lato;
+    font-weight: 400;
+    font-size: 14px;
+}

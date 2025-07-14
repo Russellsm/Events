@@ -640,15 +640,18 @@ li {
 
     h4 {
         text-align: center;
-
+        
     }
 }
+
+
 
 @media (max-width:1024px) {
     .container {
         width: 100%;
         height: auto;
         padding-top: 30px;
+        background:red;
     }
 
     navbar {
@@ -734,4 +737,25 @@ li {
         }
     }
 
+}
+
+@media (max-width:380px){
+    .container {
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+        background:blue;
+    }
+
+    .set {
+        flex-direction: column;
+    }
+
+    .Header-text{
+        flex-direction: column;
+    }
+
+    .styled-line {
+        width: 100%;
+    }
 }
