@@ -157,7 +157,7 @@
         padding-left: 30px;
         border-radius: 8px;
         color: #848484;
-        border: 0.5px solid #848484
+        border: 0.5px solid #848484;
     }
 
     button {
@@ -303,8 +303,8 @@
 }
 
 #solid {
-   padding-top: 30px;
-   font-size: 18px;
+    padding-top: 30px;
+    font-size: 18px;
 }
 
 .rectangle {
@@ -608,4 +608,9 @@
             }
         }
     }
+}
+
+/* mediaqueries */
+@media (max-width: 1024px) {
+
 }

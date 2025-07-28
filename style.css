@@ -37,8 +37,9 @@ navbar {
 
     .heading-image {
         img {
-            width: 500px;
-            height: 500px;
+            max-width: 100%;
+            width: 600px;
+            height: auto;
         }
     }
 }
@@ -57,17 +58,19 @@ navbar {
 }
 
 .heading-text h1 {
-    font-size: 96px;
+    font-size: 100px !important;
     font-weight: 700;
     line-height: 100%;
     padding-top: 60px;
+    color: #870404;
 }
 
-.heading-text p {
-    font-size: 20px;
-    font-weight: 100;
-    line-height: 198%;
-    padding-top: 20px;
+.heading-text {
+    p {
+        font-size: 18px !important;
+        font-weight: 400;
+        padding-top: 50px;
+    }
 }
 
 .pic-2 {
@@ -232,11 +235,10 @@ li {
 }
 
 .organ {
-    padding-left: 43%;
+    padding-left: 545px;
     padding-top: 20px;
     font-size: 28px;
     color: rgba(135, 4, 4, 1);
-    ;
 }
 
 .set {
@@ -532,7 +534,7 @@ li {
     font-size: 32px;
     line-height: 100%;
     letter-spacing: 0%;
-    width: 300px;
+    width: 40%;
     /* prevents it from stretching full width */
     height: 60px;
     gap: 10px;
@@ -640,18 +642,17 @@ li {
 
     h4 {
         text-align: center;
-        
+
     }
 }
 
 
 
-@media (max-width:1024px) {
+@media (min-width:1024px) {
     .container {
         width: 100%;
         height: auto;
         padding-top: 30px;
-        background:red;
     }
 
     navbar {
@@ -683,16 +684,18 @@ li {
         }
     }
 
+    .organ {
+        padding-left: 345px;
+    }
+
     .list {
         gap: 50px;
     }
 
-    .disco1 {
+    .disco1 p {
+        padding-top: 150px;
+        font-size: 40px;
 
-        p {
-            padding-top: 150px;
-            font-size: 40px;
-        }
     }
 
     .seat {
@@ -737,25 +740,137 @@ li {
         }
     }
 
+    .more {
+        margin-left: 350px;
+    }
+
+    .move-up {
+        margin-left: 200px;
+    }
+
 }
 
-@media (max-width:380px){
-    .container {
-        width: 100%;
-        height: auto;
-        padding-top: 30px;
-        background:blue;
+@media (max-width:768px) {
+
+    navbar {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .heading-text h1 {
+        font-size: 60px !important;
+    }
+
+    .heading-text p {
+        font-size: 15px !important;
+        line-height: 1.5;
+    }
+
+    .heading-image img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .organ {
+        padding-left: 240px;
+
     }
 
     .set {
-        flex-direction: column;
+        flex-wrap: wrap;
     }
 
-    .Header-text{
-        flex-direction: column;
+    .list {
+        gap: 30px;
+    }
+
+    .how {
+        font-size: 20px;
+    }
+
+    .disco1 p {
+        padding-top: 180px;
+        font-size: 30px;
+    }
+
+    .ask {
+        padding-left: 18vh !important;
+    }
+
+    .you {
+        font-size: 20px !important;
+        padding-left: 5vh !important;
     }
 
     .styled-line {
-        width: 100%;
+        width: 84%;
+    }
+
+    .tickets {
+        padding-left: 7vh;
+        padding-right: 40px;
+        gap: 40px;
+
+        img {
+            padding-right: 2%;
+        }
+    }
+
+    .seat p {
+        font-size: 15px;
+        line-height: 1.0;
+    }
+
+    .seat {
+        font-size: 16px;
+    }
+
+    .what {
+        font-size: 20px;
+        padding-left: 7vh;
+    }
+
+    .happens {
+        padding-left: 7vh;
+        font-size: 20px;
+    }
+
+    .do {
+        padding-left: 7vh;
+        font-size: 20px;
+    }
+
+
+    .personal {
+        font-size: 20px;
+        padding-left: 7vh;
+    }
+
+    .more {
+        margin-left: 30vh;
+    }
+
+    .move-up {
+        margin-left: 50px;
     }
 }
+    @media (max-width:380px) {
+        .container {
+            width: 100%;
+            height: auto;
+            padding-top: 30px;
+            background: blue;
+        }
+
+        .set {
+            flex-direction: column;
+        }
+
+        .Header-text {
+            flex-direction: column;
+        }
+
+        .styled-line {
+            width: 100%;
+        }
+    }

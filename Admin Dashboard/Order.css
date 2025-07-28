@@ -126,7 +126,7 @@
 }
 
 .head-section {
-    /* margin-left: 22%; */
+    margin-left: ;
 }
 
 .top-bar h1 {
@@ -170,7 +170,6 @@
 }
 
 .search-input {
-    margin-left: 42%;
     display: flex;
     align-items: center;
     margin-top: 6%;
@@ -223,7 +222,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgba(217, 217, 217, 1);
-    width: 1000px;
+    width: 82%;
     height: 30px;
     padding: 0px 40px;
     font-family: lato;
@@ -307,7 +306,7 @@
 }
 
 .reg {
-    padding-left: 30px;
+    padding-left: 80px;
 }
 
 .pend {
